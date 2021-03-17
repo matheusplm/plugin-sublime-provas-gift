@@ -1,0 +1,22 @@
+Como deve ser utilizado:
+
+Cada pergunta deve ser separada da outra por 1 quebra de linha "um enter", as respostas entre { } sendo a marcação da resposta certa por um " = ", a primeira linha deve ser um espaço em branco, e as respostas, cada uma delas deve estar em uma e unica linha separada
+
+As questões serão separadas em grupos de unidades, cada unidade com 5 questões, ex de montagem:
+
+
+A Revolução Industrial foi o período que marcou a luta pelos direitos sociais. O proletariado, agora como classe revolucionária, busca junto ao Estado a interferência nas regulamentações trabalhistas. Dois fatores principais contribuíram para que o proletariado exigisse seus direitos. Foram eles:{
+	Os acidentes de trabalho e os problemas de saúde.
+	= A agudização da pobreza e a concentração de renda.
+	A falta de assistência social e a exploração do trabalho.
+	O processo de retorno ao Estado absolutista e as questões de saúde pública.
+	A interferência da religião e a revolta dos camponeses.
+}
+
+O proletariado compunha a força de trabalho das indústrias, que se apresentavam como nova forma de organização econômica europeia, o capitalismo industrial. Sua insurgência como classe revolucionária deu fim ao processo revolucionário da burguesia, que durou um século. A força do proletariado na luta pelos direitos sociais vinha:{
+	= de sua posição estratégica na economia capitalista industrial.
+	de sua relação com o Estado absolutista.
+	de sua relação amistosa com a burguesia industrial.
+	de sua força como classe rural que foi utilizada na questão urbana.
+	de sua proximidade com a Igreja Católica.
+}

@@ -1,0 +1,7 @@
+ [{
+     "id": "tools",
+     "children": [{
+         "caption": "Mat-Plugin-GIFT 2.0",
+         "command": "process_gift_file"
+     }]
+ }]
