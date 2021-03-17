@@ -26,8 +26,11 @@ def numberquestions(self, edit):
 
     for rgn in self.view.find_all("\nA\)"):
         self.view.sel().add(rgn)
-        
-    for rgn in self.view.find_all("\nA\)"):
+
+    for rgn in self.view.find_all("\na\."):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("\nA\."):
         self.view.sel().add(rgn)
 
     self.view.run_command("expand_selection", {"to": "line"})
@@ -227,6 +230,12 @@ def alternates(self, edit):
     for rgn in self.view.find_all("~ A\)"):
         self.view.sel().add(rgn)
 
+    for rgn in self.view.find_all("~ a\."):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("~ A\."):
+        self.view.sel().add(rgn)
+
     for sel in sels:
         string = self.view.substr(sel)
         string = "~ "
@@ -238,6 +247,12 @@ def alternates(self, edit):
         self.view.sel().add(rgn)
 
     for rgn in self.view.find_all("~ B\)"):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("~ b\."):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("~ B\."):
         self.view.sel().add(rgn)
 
     for sel in sels:
@@ -253,6 +268,12 @@ def alternates(self, edit):
     for rgn in self.view.find_all("~ C\)"):
         self.view.sel().add(rgn)
 
+    for rgn in self.view.find_all("~ c\."):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("~ C\."):
+        self.view.sel().add(rgn)
+
     for sel in sels:
         string = self.view.substr(sel)
         string = "~ "
@@ -264,6 +285,12 @@ def alternates(self, edit):
         self.view.sel().add(rgn)
 
     for rgn in self.view.find_all("~ D\)"):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("~ d\."):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("~ D\."):
         self.view.sel().add(rgn)
 
     for sel in sels:
@@ -279,6 +306,12 @@ def alternates(self, edit):
     for rgn in self.view.find_all("~ E\)"):
         self.view.sel().add(rgn)
 
+    for rgn in self.view.find_all("~ e\."):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("~ E\."):
+        self.view.sel().add(rgn)
+
     for sel in sels:
         string = self.view.substr(sel)
         string = "~ "
@@ -290,6 +323,12 @@ def alternates(self, edit):
         self.view.sel().add(rgn)
 
     for rgn in self.view.find_all("= A\) ->"):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("= a\. ->"):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("= A\. ->"):
         self.view.sel().add(rgn)
 
     for sel in sels:
@@ -305,6 +344,13 @@ def alternates(self, edit):
     for rgn in self.view.find_all("= B\) ->"):
         self.view.sel().add(rgn)
 
+    for rgn in self.view.find_all("= b\. ->"):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("= B\. ->"):
+        self.view.sel().add(rgn)
+
+
     for sel in sels:
         string = self.view.substr(sel)
         string = "= "
@@ -317,6 +363,13 @@ def alternates(self, edit):
 
     for rgn in self.view.find_all("= C\) ->"):
         self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("= C\. ->"):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("= c\. ->"):
+        self.view.sel().add(rgn)
+
 
     for sel in sels:
         string = self.view.substr(sel)
@@ -331,6 +384,13 @@ def alternates(self, edit):
     for rgn in self.view.find_all("= D\) ->"):
         self.view.sel().add(rgn)
 
+    for rgn in self.view.find_all("= d\. ->"):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("= D\. ->"):
+        self.view.sel().add(rgn)
+
+
     for sel in sels:
         string = self.view.substr(sel)
         string = "= "
@@ -343,6 +403,13 @@ def alternates(self, edit):
 
     for rgn in self.view.find_all("= E\) ->"):
         self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("= E\. ->"):
+        self.view.sel().add(rgn)
+
+    for rgn in self.view.find_all("= e\. ->"):
+        self.view.sel().add(rgn)
+
 
     for sel in sels:
         string = self.view.substr(sel)
